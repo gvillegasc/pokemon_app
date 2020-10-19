@@ -32,7 +32,8 @@ class _ListPokemonsState extends State<ListPokemons> {
           if (snapshot.hasData) {
             final List<Pokemon> pokemons = snapshot.data;
             return SliverPadding(
-              padding: EdgeInsets.symmetric(vertical: 15, horizontal: 15),
+              padding:
+                  EdgeInsets.only(top: 15, bottom: 40, left: 15, right: 15),
               sliver: SliverGrid(
                   delegate: SliverChildBuilderDelegate((_, index) {
                     return CardPokemon(

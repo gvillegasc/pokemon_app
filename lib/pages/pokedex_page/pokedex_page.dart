@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:pokemon_app/pages/pokedex_page/widgets/list_pokemons.dart';
 import 'package:pokemon_app/pages/pokedex_page/widgets/pokeball.dart';
 import 'package:pokemon_app/pages/pokedex_page/widgets/actions_bar.dart';
+import 'package:pokemon_app/pages/pokedex_page/widgets/settings_button.dart';
 import 'package:pokemon_app/pages/pokedex_page/widgets/title_pokedex.dart';
 
 class PokedexPage extends StatefulWidget {
@@ -18,6 +19,7 @@ class _PokedexPageState extends State<PokedexPage> {
   Widget build(BuildContext context) {
     final Size screenSize = MediaQuery.of(context).size;
     return Scaffold(
+      floatingActionButton: SettingsButton(),
       body: Container(
         width: screenSize.width,
         height: screenSize.height,
