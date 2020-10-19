@@ -30,8 +30,8 @@ class CardPokemon extends StatelessWidget {
               Positioned(
                 right: 0,
                 bottom: -screenSize.height * 0.01,
-                child:
-                    SvgPicture.asset("assets/pages/home/images/pokeball2.svg"),
+                child: SvgPicture.asset(
+                    "assets/pages/pokedex_page/images/pokeball2.svg"),
                 height: screenSize.height * 0.12,
                 width: screenSize.height * 0.12,
               ),

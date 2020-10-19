@@ -16,8 +16,8 @@ class ActionsBar extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
-              SvgPicture.asset("assets/pages/home/icons/back.svg"),
-              SvgPicture.asset("assets/pages/home/icons/menu.svg")
+              SvgPicture.asset("assets/pages/pokedex_page/icons/back.svg"),
+              SvgPicture.asset("assets/pages/pokedex_page/icons/menu.svg")
             ],
           ),
         ),

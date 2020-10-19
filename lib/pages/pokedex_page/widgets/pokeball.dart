@@ -10,7 +10,7 @@ class Pokeball extends StatelessWidget {
         top: 0,
         right: 0,
         child: SvgPicture.asset(
-          "assets/pages/home/images/pokeball.svg",
+          "assets/pages/pokedex_page/images/pokeball.svg",
           height: screenSize.height * 0.3,
           width: screenSize.height * 0.3,
         ));

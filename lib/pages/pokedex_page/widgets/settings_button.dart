@@ -7,7 +7,7 @@ class SettingsButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return FloatingActionButton(
       backgroundColor: Color(0xff6C79DB),
-      child: SvgPicture.asset("assets/pages/home/icons/settings.svg"),
+      child: SvgPicture.asset("assets/pages/pokedex_page/icons/settings.svg"),
       onPressed: () {},
     );
   }
